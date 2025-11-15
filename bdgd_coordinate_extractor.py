@@ -2,7 +2,7 @@ import geopandas as gpd
 from shapely.geometry import Point
 
 # Caminho do shapefile da camada de transformadores
-shp_path = r"C:\Users\Estagiário ANEEL\Documents\BDGDs convertidas de gdb para shp 2\UNTRMT.shp"
+shp_path = r"C:\Users\MikeABDantas\Documents\BDGDs convertidas de gdb para shp 2\UNTRMT.shp"
 
 # Ler o shapefile
 gdf = gpd.read_file(shp_path)
